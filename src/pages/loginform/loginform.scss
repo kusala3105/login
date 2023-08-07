@@ -6,6 +6,7 @@ ion-content{
     margin-top: -85px;
     padding-bottom: 14%;
     font-size:15px;
+    background-image: linear-gradient(to right, #29ADA5 ,#E3EE66);
 }
 .row1{
     border: 0px;
@@ -24,12 +25,17 @@ ion-content{
     padding: 7px 5px;
     margin: 5px 0;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 2px solid #0b0909;
     border-radius: 2px;
     box-sizing: border-box;
     width:50%;
     height:50%;
 }
+.content3{
+    background-image: linear-gradient(to right, #9ee4e0 ,#d9e17f);
+}
+  
+
 
 .alert-md .alert-head { // for the title section
 
