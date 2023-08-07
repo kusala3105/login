@@ -1,3 +1,51 @@
-page-home {
+.grid{
+border: 0px;
+padding: 9%;
+
+padding-top: 58%;
+text-align: center;
+}
+
+/*ion-card{
+
+    .hel{
+    
+    width:100%;
+    text-align:center;
+    font-weight:200;
+    font-size:x-large;
+    font-style:normal;
+    
+    }
 
 }
+.content{
+    width: 88%;
+    margin-left: 6%;
+
+}
+.cardtitle-md{
+    
+    display: block;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    color: blue;
+    margin: 64px 0;
+    padding: 20px 0;
+    font-family:cursive;
+}
+.card-header-md {
+    font-size: 1.6rem;
+    color: #222;
+    padding: 0px;
+    margin-top: -18%;
+}*/
+.content1{
+    background-image: url('/assets/imgs/card.jpg');
+   
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+
+}
+

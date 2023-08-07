@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>adminpage</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-grid class="grid2">
+  <ion-row class="row2">
+    <ion-col>Display_type</ion-col>   
+    <ion-col>Weight</ion-col>
+    <ion-col>Price</ion-col>
+    <ion-col>Path</ion-col>
+  </ion-row>
+  
+  <ion-row class="row2">
+    <ion-item *ngFor="let item of details1 | paginate:{itemsPerPage:2,currentPage:page}">  
+    <ion-col class="col2">{{item.display_type}}</ion-col>  
+    <ion-col class="col2">{{item.weight}}</ion-col>
+    <ion-col class="col2">{{item.price}}</ion-col>
+    <ion-col class="col2"><button ion-button (click)="gettoknow(item.path,item.id)">Know More</button></ion-col>
+    </ion-item>
+      </ion-row>       
+  </ion-grid>
+  <pagination-controls (pageChange)="pageChanged($event)"> </pagination-controls>
+</ion-content>
+
+
+  
+
